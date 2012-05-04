@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project basedir="." default="jni-header" name="JGhost">
+	<target name="jni-header">
+		<javah classpath="bin" outputFile="c/jghost_util.h" verbose="yes"> 
+			<class name="ch.drystayle.jghost.util.JniUtil" /> 
+		</javah>
+	</target>
+</project>
+
+
